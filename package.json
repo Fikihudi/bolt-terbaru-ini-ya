@@ -23,7 +23,7 @@
     "dockerbuild": "docker build -t bolt-ai:development -t bolt-ai:latest --target bolt-ai-development .",
     "typecheck": "tsc",
     "typegen": "wrangler types",
-    "preview": "pnpm run build && pnpm run start",
+    "preview": "npm run build && npm run start",
     "prepare": "husky"
   },
   "engines": {
@@ -119,7 +119,6 @@
     "husky": "9.1.7",
     "is-ci": "^3.0.1",
     "node-fetch": "^3.3.2",
-    "pnpm": "^9.14.4",
     "prettier": "^3.4.1",
     "sass-embedded": "^1.81.0",
     "typescript": "^5.7.2",
